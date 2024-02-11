@@ -4,7 +4,7 @@ const { json } = require("stream/consumers");
 const socketHandler = (server) => {
   const io = new Server(server, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://34.64.112.246:4000",
       methods: ["GET", "POST"],
     },
   });
@@ -125,7 +125,7 @@ const socketHandler = (server) => {
     console.log("connection!");
     console.log("socket ID : ", socket_id);
     user[socket.id] = {
-      nickname: "이름없는 관전자",
+      nickname: "관전자",
       point: 0,
       win: 0,
       lose: 0,
