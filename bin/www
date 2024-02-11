@@ -6,7 +6,7 @@
 
 var app = require("../app");
 var debug = require("debug")("express-skeleton-html:server");
-var http = require("http");
+var http = require("https");
 const socketHandler = require("../modules/socketHandler");
 
 /**
