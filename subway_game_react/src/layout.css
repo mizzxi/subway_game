@@ -1,0 +1,16 @@
+.head {
+  position: absolute;
+  top: 0%;
+}
+.main {
+  position: absolute;
+  margin-top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 100px;
+}
+.footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
