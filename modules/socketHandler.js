@@ -4,7 +4,7 @@ const { json } = require("stream/consumers");
 const socketHandler = (server) => {
   const io = new Server(server, {
     cors: {
-      origin: "https://34.64.112.246:4000",
+      origin: "https://port-0-subway-game-17xco2nlsh8my76.sel5.cloudtype.app",
       methods: ["GET", "POST"],
     },
   });
