@@ -6,7 +6,7 @@
 
 var app = require("../app");
 var debug = require("debug")("express-skeleton-html:server");
-var https = require("https");
+var http = require("http");
 const socketHandler = require("../modules/socketHandler");
 
 /**
@@ -20,7 +20,7 @@ app.set("port", port);
  * Create HTTP server.
  */
 
-const server = https.createServer(app);
+const server = http.createServer(app);
 socketHandler(server);
 
 /**
