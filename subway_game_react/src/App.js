@@ -6,7 +6,7 @@ import Footer from "./footer";
 import "./layout.css";
 import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
-const socket = io("http://15.164.138.159:3000", {
+const socket = io("http://15.164.138.159:3000/", {
   transports: ["websocket"],
 });
 
