@@ -6,12 +6,9 @@ import Footer from "./footer";
 import "./layout.css";
 import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
-const socket = io(
-  "https://port-0-subway-game-17xco2nlsh8my76.sel5.cloudtype.app/",
-  {
-    transports: ["websocket"],
-  }
-);
+const socket = io("https://subwaygame.mizzxi.site", {
+  transports: ["websocket"],
+});
 
 function App() {
   socket.on("connect", () => {
