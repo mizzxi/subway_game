@@ -10,7 +10,7 @@ export default function Header() {
     <div>
       <div className="mt-4 p-3 fixed-top rounded-pill" style={header_style}>
         <h1>&#128643; 오늘도 평화로운 1호선 &#128643;</h1>
-        <h5>coding assignment#3</h5>
+        <h5>1호선 역이름 말하기 게임</h5>
       </div>
     </div>
   );
