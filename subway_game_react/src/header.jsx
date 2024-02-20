@@ -5,6 +5,7 @@ export default function Header() {
     backgroundColor: "#FFFFFF",
     color: "#1790BF",
     border: "10px solid #1790BF",
+    position: "relative",
   };
   return (
     <div>
